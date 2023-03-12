@@ -45,6 +45,7 @@ com\project\portfolio\entity\Proyecto.class
 com\project\portfolio\entity\Experiencia.class
 com\project\portfolio\security\dto\UsuarioDTO.class
 com\project\portfolio\repository\EducacionRepository.class
+WebConfig.class
 com\project\portfolio\service\PersonaTieneHabilidadService.class
 com\project\portfolio\PortfolioApplication.class
 com\project\portfolio\repository\PorcentajeRepository.class
