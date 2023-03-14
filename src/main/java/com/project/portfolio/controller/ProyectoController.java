@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
 public class ProyectoController {
 
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");

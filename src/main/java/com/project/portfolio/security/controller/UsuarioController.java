@@ -32,7 +32,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
 public class UsuarioController {
 
     @Autowired
