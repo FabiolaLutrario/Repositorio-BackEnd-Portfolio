@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/habilidad")
-@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
+@CrossOrigin(origins = {"https://frontendportfolio-bff8c.web.app", "http://localhost:4200"})
 public class HabilidadController {
 
     @Autowired

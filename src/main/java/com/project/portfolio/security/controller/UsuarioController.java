@@ -32,7 +32,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
+@CrossOrigin(origins = {"https://frontendportfolio-bff8c.web.app", "http://localhost:4200"})
 public class UsuarioController {
 
     @Autowired
@@ -60,8 +60,7 @@ public class UsuarioController {
 
         Usuario usuario = new Usuario(nuevoUsuario.getNombre(), nuevoUsuario.getApellido(),
                 nuevoUsuario.getEmail(), passwordEncoder.encode(nuevoUsuario.getPassword()),
-                nuevoUsuario.getTitulo(), "https://photos.app.goo.gl/CgSF6uLjeBoMX7Eh9"
-                ,"https://photos.app.goo.gl/CgSF6uLjeBoMX7Eh9");
+                nuevoUsuario.getTitulo(), null,null);
 
         Set<Rol> roles = new HashSet<>();
         roles.add(rolService.getByRolNombre(RolNombre.ROLE_USER).get());
