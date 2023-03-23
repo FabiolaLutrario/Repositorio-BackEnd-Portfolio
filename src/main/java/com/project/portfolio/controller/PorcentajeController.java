@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/porcentaje")
-@CrossOrigin(origins = {"https://frontendportfolio-bff8c.web.app", "http://localhost:4200"})
+@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
 public class PorcentajeController {
 
     @Autowired

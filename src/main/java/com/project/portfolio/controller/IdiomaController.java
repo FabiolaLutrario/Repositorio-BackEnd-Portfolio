@@ -23,7 +23,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/idioma")
-@CrossOrigin(origins = {"https://frontendportfolio-bff8c.web.app", "http://localhost:4200"})
+@CrossOrigin(origins = "https://frontendportfolio-bff8c.web.app")
 public class IdiomaController {
 
     @Autowired
